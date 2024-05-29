@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go
-import plotly.figure_factory as ff
-import plotly.io as pio
 import networkx as nx
 import missingno as msno
 from mlxtend.frequent_patterns import apriori, association_rules 
