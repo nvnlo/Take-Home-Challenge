@@ -141,7 +141,6 @@ st.markdown("## Side-by-side Boxplots of Departments vs. Weight")
 plt.figure(figsize = (12,6))
 plt.xlim(0, 10000) # ignoring outliers, getting a closer look at the boxes
 sns.boxplot(data = product_purchase, x = "WEIGHT_GRAMS", y = "DEPARTMENT_NAME")
-plt.xticks(rotation=90)
 plt.ylabel("Department Name")
 plt.xlabel("Weight (grams)")
 st.pyplot(plt)
