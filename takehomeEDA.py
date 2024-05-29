@@ -8,9 +8,9 @@ import missingno as msno
 from mlxtend.frequent_patterns import apriori, association_rules 
 
 
-product = pd.read_csv("/Users/navin/Downloads/take_home_challenge/product.csv")
-purchase_header = pd.read_csv("/Users/navin/Downloads/take_home_challenge/purchase_header.csv")
-purchase_lines = pd.read_csv("/Users/navin/Downloads/take_home_challenge/purchase_lines.csv")
+product = pd.read_csv("product.csv")
+purchase_header = pd.read_csv("purchase_header.csv")
+purchase_lines = pd.read_csv("purchase_lines.csv")
 
 st.title('Take Home Challenge')
 st.markdown('EDA of the three provided .csv files.')
